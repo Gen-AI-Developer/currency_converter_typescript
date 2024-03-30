@@ -1,0 +1,11 @@
+{
+  "name": "currency_converter_typescript",
+  "version": "1.0.0",
+  "description": "This is Simple CLI Money/Currency Conveter APP build in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Safdar Ali Shah",
+  "license": "MIT"
+}
