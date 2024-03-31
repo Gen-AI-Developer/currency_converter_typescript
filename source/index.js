@@ -3,7 +3,6 @@
 // //Operation of Full Application
 // async function Application() {
 //     const answers = await inquirer.prompt([
-
 //         {
 //             type: "input",
 //             name: "inputCash",
@@ -31,8 +30,6 @@
 //                 "EUR",
 //             ]
 //         }
-
-
 //     ])
 //     if (answers.inputCash === answers.outputCurrency) {
 //         console.log('Conversation in same currency is not logical')
@@ -52,7 +49,5 @@
 //     else if (input === "PKR" && output === "EUR") {
 //         console.log(``)
 //     }
-
 // }
-
 // Application()
