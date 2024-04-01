@@ -1,58 +1,60 @@
-// import inquirer from "inquirer";
-// // Start of Application
-// //Operation of Full Application
-// async function Application() {
-//     const answers = await inquirer.prompt([
+import inquirer from "inquirer";
+// Start of Application
+//Operation of Full Application
+async function Application() {
+    const answers = await inquirer.prompt([
 
-//         {
-//             type: "input",
-//             name: "inputCash",
-//             message: "Enter your amount/cash - ",
-//         },
-//         {
-//             type: "list",
-//             name: "inputCurrency",
-//             message: "Select Your Currency",
-//             choices: [
-//                 "PKR",
-//                 "USD",
-//                 "PND",
-//                 "EUR",
-//             ]
-//         },
-//         {
-//             type: "list",
-//             name: "outputCurrency",
-//             message: "Select Your Currency",
-//             choices: [
-//                 "PKR",
-//                 "USD",
-//                 "PND",
-//                 "EUR",
-//             ]
-//         }
+        {
+            type: "input",
+            name: "inputCash",
+            message: "Enter your amount/cash - ",
+        },
+        {
+            type: "list",
+            name: "inputCurrency",
+            message: "Select Your Currency",
+            choices: [
+                "PKR",
+                "USD",
+                "PND",
+                "EUR",
+            ]
+        },
+        {
+            type: "list",
+            name: "outputCurrency",
+            message: "Select Your Currency",
+            choices: [
+                "PKR",
+                "USD",
+                "PND",
+                "EUR",
+            ]
+        }
 
 
-//     ])
-//     if (answers.inputCash === answers.outputCurrency) {
-//         console.log('Conversation in same currency is not logical')
-//         Application()
-//     }
-//     else {
-//         CurrencyConveter(answers.inputCurrency, answers.outputCurrency, answers.inputCash)
-//     }
-// }
-// async function CurrencyConveter(input: string, output: string, cash: number) {
-//     if (input === "PKR" && output === "USD") {
-//         console.log(``)
-//     }
-//     else if (input === "PKR" && output === "PND") {
-//         console.log(``)
-//     }
-//     else if (input === "PKR" && output === "EUR") {
-//         console.log(``)
-//     }
+    ])
+    if (answers.inputCash === answers.outputCurrency) {
+        console.log('Conversation in same currency is not logical')
+        Application()
+    }
+    else {
+        CurrencyConveter(answers.inputCurrency, answers.outputCurrency, answers.inputCash)
+    }
+}
+async function CurrencyConveter(input: string, output: string, cash: number) {
+    if (input === "PKR" && output === "USD") {
+        console.log(`PKR`)
+    }
+    else if (input === "PKR" && output === "PND") {
+        console.log(`PKR`)
+        console.log(``)
+    }
+    else if (input === "PKR" && output === "EUR") {
+        console.log(`PKR`)
+        console.log(``)
+    }
 
-// }
+}
 
-// Application()
+Application()
