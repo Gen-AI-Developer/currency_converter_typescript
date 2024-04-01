@@ -1,0 +1,21 @@
+{
+  "name": "currency_converter_typescript",
+  "version": "1.0.0",
+  "description": "This is simple typescript project",
+  "main": "./dist/index.js",
+  "bin": {
+    "currency_converter_typescript": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Safdar Ali Shah",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
