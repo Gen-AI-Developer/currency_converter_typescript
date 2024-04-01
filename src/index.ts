@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 import inquirer from "inquirer";
 // Start of Application
 //Operation of Full Application

@@ -1,10 +1,10 @@
 {
-  "name": "currency_converter_typescript",
+  "name": "currency_converter_typescript_gen_ai",
   "version": "1.0.0",
   "description": "This is simple typescript project",
   "main": "./dist/index.js",
   "bin": {
-    "currency_converter_typescript": "./dist/index.js"
+    "currency_converter_typescript_gen_ai": "./dist/index.js"
   },
   "type": "module",
   "scripts": {
